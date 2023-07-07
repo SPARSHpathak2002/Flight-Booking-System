@@ -1,0 +1,5 @@
+20230706	19:57:01	af6c97c3-3310-42dd-b0d9-761064938bfe	SyntaxError: Unexpected token } in JSON at position 87	POST	/users	undefined
+20230706	20:12:41	b5abe7ca-cb97-436d-8596-9376c5ffc2de	ReferenceError: roles is not defined	POST	/users	undefined
+20230706	20:14:19	84c73cd4-e403-49ce-85ff-789279396703	ReferenceError: roles is not defined	POST	/users	undefined
+20230707	12:23:44	90ec54d8-494d-4b26-813c-3f07e8044ee2	StrictPopulateError: Cannot populate path `Flights` because it is not in your schema. Set the `strictPopulate` option to false to override.	GET	/users	undefined
+20230707	12:39:24	f46d5dce-0fed-41c1-912a-5ca0338cc119	TypeError: User.find(...).select(...).populate(...).exec(...).lean is not a function	GET	/users	undefined

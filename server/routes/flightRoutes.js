@@ -1,0 +1,13 @@
+const express=require('express')
+const router=express.Router()
+const flightController=require('../controllers/flightController')
+const verifyJWT = require('../middleware/verifyJWT')
+router.use(verifyJWT)
+router.route('/')
+    .get(flightController.getAllFlights)
+    .post(flightController.addFlight)
+    .patch(flightController.updateFlight)
+    .delete(flightController.deleteFlight)
+router.route('/book')
+    .post(flightController.bookFlight)
+module.exports=router
