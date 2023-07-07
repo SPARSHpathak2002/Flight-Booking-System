@@ -45,7 +45,7 @@ const AddFlight = () => {
         content=<div class="absolute right-1/2 bottom-1/2  transform translate-x-1/2 translate-y-1/2 ">
         <span className="loading loading-spinner loading-lg"></span></div>
       }
-      if(isSuccess){
+      if(isSuccess && data?.length >0){
         content=data.map(flight=>(<> <div  className='my-1.5  w-full flex justify-between bg-gray-200 p-4 rounded-lg shadow-md'>
         <div>
         <p className='text-md'><b>{flight.name} {flight.flightnumber}</b></p>
