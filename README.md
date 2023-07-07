@@ -12,7 +12,11 @@ View Flight according to booking
 Logout feature
 
 ## Screenshots
-
+![App Screenshot](https://github.com/SPARSHpathak2002/Flight-Booking-System/blob/main/images/1.JPG)
+![App Screenshot](https://github.com/SPARSHpathak2002/Flight-Booking-System/blob/main/images/2.JPG)
+![App Screenshot](https://github.com/SPARSHpathak2002/Flight-Booking-System/blob/main/images/3.JPG)
+![App Screenshot](https://github.com/SPARSHpathak2002/Flight-Booking-System/blob/main/images/4.JPG)
+![App Screenshot](https://github.com/SPARSHpathak2002/Flight-Booking-System/blob/main/images/5.JPG)
 
 ## STEPS FOR USAGE/TESTING
 
