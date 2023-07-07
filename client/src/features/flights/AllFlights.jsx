@@ -19,8 +19,12 @@ const AllFlights = ({filterOption}) => {
   if(isSuccess){
     
     console.log(data)
+    if (data?.length == 0){
+      content=<p>No Data Available</p>
+    }
+    else{
     content=data.map(flight=>(<FlightDetail key={flight._id} {...flight}/>))
-
+    }
   }
   if(isError){
     content=<p>{error}</p>
